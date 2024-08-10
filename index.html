@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="mainContainer">
+      <form
+        id="myForm"
+        class="formContainer"
+        target="_blank"
+        action="https://www.example.com/"
+      >
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" />
+        <span class="nameError">Name is required</span>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="mailId" />
+        <span class="mailError">E-Mail is required</span>
+        <label for="pword">Password:</label>
+        <input type="password" id="pword" name="userPassword" />
+        <span class="passwordError">Password is required</span>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
